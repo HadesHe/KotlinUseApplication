@@ -7,3 +7,13 @@
 /build
 /captures
 .externalNativeBuild
+/.gradle/
+/.idea/
+.idea/gradle.xml
+.idea/markdown-navigator/
+.idea/misc.xml
+.idea/modules.xml
+.idea/runConfigurations.xml
+app/libs/
+dispathview/libs/
+gradle/
