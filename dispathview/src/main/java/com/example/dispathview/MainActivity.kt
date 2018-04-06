@@ -17,5 +17,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+
+        btnViewInterrupt2.setOnClickListener {
+            val intent=Intent(this@MainActivity,Demo2Activity::class.java)
+            startActivity(intent)
+        }
     }
 }
