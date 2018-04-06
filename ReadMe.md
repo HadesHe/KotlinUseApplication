@@ -1,3 +1,7 @@
 ## This is about Kotlin Use ##
-1. Easy use RecyclerView
-2. Todo Use View Intercept
+[Kotlin字典](#https://github.com/huanglizhuo/kotlin-in-chinese)
+
+[android art res](#https://github.com/HadesHe/android-art-res)
+
+1. Module App about use RecyclerView
+2. Module DispathView is about view interrupt
