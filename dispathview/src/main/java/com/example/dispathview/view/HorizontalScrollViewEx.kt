@@ -92,6 +92,9 @@ class HorizontalScrollViewEx : ViewGroup{
         var x=(event.getX().toInt() )
         var y=(event.getY().toInt())
         when(event.action){
+            //如果用户正在水平滑动，但是在水平滑动停止之前如果用户再迅速进行竖直滑动
+//            就会导致界面在水平方向无法滑动到终点从而处于一种中间状态
+//            解决方案：当水平方向正在滑动时，下一个序列的点击事件仍然交给父容器处理
             MotionEvent.ACTION_DOWN->{
                 if (mScroller.isFinished.not()) {
                     mScroller.abortAnimation()

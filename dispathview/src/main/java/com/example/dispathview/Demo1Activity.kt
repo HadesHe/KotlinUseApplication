@@ -11,6 +11,9 @@ import android.widget.Toast
 import com.example.dispathview.util.getScreenMetrics
 import com.example.dispathview.view.HorizontalScrollViewEx
 
+/**
+ * 使用外部拦截法，解决不同方向滑动处理冲突
+ */
 class Demo1Activity : AppCompatActivity() {
 
 
